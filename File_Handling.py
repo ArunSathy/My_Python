@@ -122,3 +122,7 @@
 # for i in f1:
 #     f2.write(i)
 
+#------------------------------------------
+with open ('Job.txt','r') as file:
+    i = [j.strip() for j in file.readlines()]
+    print(i)
